@@ -1,8 +1,8 @@
 import "../globals.css";
 
 export const metadata = {
-  title: "ATGT Game11",
-  description: "ATGT Game 11",
+  title: "portrait",
+  description: "portrait",
 };
 
 export default function GameLayout({

@@ -1,5 +1,4 @@
 "use client";
-import FixAspectWrapper from "@/components/roots/fixAspectWrapper";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -18,14 +17,14 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="w-screen h-screen bg-slate-100 text-black">
-      <div className="flex flex-col justify-center items-center">
+    <main className="w-screen h-screen text-black">
+      <div className="flex flex-col justify-center items-center gap-2">
         <p>
           x={mousePos.x}, y={mousePos.y}
         </p>
         <button className="p-2 border-black border-2">Click</button>
+        <div className="w-3/5 h-[500px] bg-red-500 border-2 border-black"></div>
       </div>
-      <div className="bg-red-300 w-[200px] h-[600px]"></div>
     </main>
   );
 }

@@ -1,5 +1,3 @@
-import LockPortrait from "@/components/roots/lockPortrait";
-
 const FixAspectWrapper = ({
   aspect,
   isPortrait,
