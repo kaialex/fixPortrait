@@ -1,8 +1,8 @@
 import "../globals.css";
 
 export const metadata = {
-  title: "portrait",
-  description: "portrait",
+  title: "atgt2023-11",
+  description: "atgt2023-11",
 };
 
 export default function GameLayout({
